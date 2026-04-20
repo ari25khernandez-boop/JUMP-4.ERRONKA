@@ -16,7 +16,7 @@ Aurkibidea:
 2 PROIEKTUAREN JATORRIA ETA TESTUINGURUA	
 
 3 HELBURUAK	
-Proiektu honen helburua Cade-Simuko eskema elektriko bat egitea da , hau da, eskemak egiten dakigula erakustea eta guk behar ditugun elementuak egotea eta beraien arteko kableatua egokia izatea. Cadesimuko eskema ikusita gai izan behar gara automatismoaren muntaia egiteko eta mantenimentua egokia emateko. Programazioaren eskuliburua ikusita maiztasun bihurgailuaren parametroak sartzen ikasi dugu eta PLC arekin komunikatzen. Horrezgain, arduinoren bitartez motorraren temperatura kontrolatu ahal dugu bertan DHT11-ren laguntzarekin kontrolatzen dugu baina lehenago, nola erabiltzen den eta nola programatu behar den. Arduinorekin batera tentsio zatitzailea nola egiten den ikasi degu. Ondoren, ur-maila kontrolatzeko ultrasoinua erabili da eta bere parametroak K3GN-ren bitartez bistaratu dira.
+Proiektu honen helburua Cade-Simuko eskema elektriko bat egitea da , hau da, eskemak egiten dakigula erakustea eta guk behar ditugun elementuak egotea eta beraien arteko kableatua egokia izatea. Cadesimuko eskema ikusita gai izan behar gara automatismoaren muntaia egiteko eta mantenimentua egokia emateko. Programazioaren eskuliburua ikusita maiztasun bihurgailuaren parametroak sartzen ikasi dugu eta PLC arekin komunikatzen. Horrezgain, arduinoren bitartez motorraren temperatura kontrolatu ahal dugu bertan DHT11-ren laguntzarekin kontrolatzen baina leh duguenago, nola erabiltzen den eta nola programatu behar den ikasi genuen. Arduinorekin batera PLC-aren zekuentzia programasioan gehiago ikasi dugu eta zirkuituan pasatzen dena HMI pantallan adieraztea eta bere programazioa.
 
 4 AUTOMATISMOA	
 
