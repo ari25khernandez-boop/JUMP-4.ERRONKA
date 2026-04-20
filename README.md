@@ -21,7 +21,7 @@ Proiektu honen helburua Cade-Simuko eskema elektriko bat egitea da , hau da, esk
 4 AUTOMATISMOA	
 
       ● CADE-SIMU	
-<img width="717" height="912" alt="0" src="https://github.com/user-attachments/assets/b75caa8b-b0c2-4f37-a7f0-c7c9da629a3a" />
+<img width="717" height="912" alt="0" src="[https://github.com/user-attachments/assets/b75caa8b-b0c2-4f37-a7f0-c7c9da629a3a](https://drive.google.com/drive/folders/1HvIdJsIhe2s03tDhyD8j1JG4ZIPBsFqx)" />
       ● FUNTZIONAMENDUA	
 
 5 ABIARAZLE PROGRESIBOA	
