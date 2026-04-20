@@ -4,6 +4,7 @@
 AUTOMATA PROGRAMAGARRIAK
 
 <img width="717" height="912" alt="0" src="https://github.com/user-attachments/assets/b75caa8b-b0c2-4f37-a7f0-c7c9da629a3a" />
+
   Taldearen Izena: JUMK S.L
   
 Taldekideak: Karen H, Jon O, Unax A eta Maddi U.
@@ -19,7 +20,7 @@ Aurkibidea:
 4 AUTOMATISMOA	
 
       ● CADE-SIMU	
-
+<img width="717" height="912" alt="0" src="https://github.com/user-attachments/assets/b75caa8b-b0c2-4f37-a7f0-c7c9da629a3a" />
       ● FUNTZIONAMENDUA	
 
 5 ABIARAZLE PROGRESIBOA	
