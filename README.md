@@ -23,7 +23,7 @@ Proiektu honen helburua Cade-Simuko eskema elektriko bat egitea da , hau da, esk
       ● CADE-SIMU	
 <img width="717" height="912" alt="0" src="[[https://github.com/user-attachments/assets/b75caa8b-b0c2-4f37-a7f0-c7c9da629a3a]](https://drive.google.com/file/d/1-b9r9d0Mwaq8TuVWs8t8Hpa3J9BuHRSd/view)" />
       ● FUNTZIONAMENDUA	
-
+Gure zirkuitu asteko lehenik eta behin entxufea konektatua egin behar da, bere diferentziala eta magneto-termicoak elektrizitatea pasatzen itxi behar du. Emerentziako zeta eta segurtasuneko ibiltarte amaiera On egoeran badaude Segurtasun Errelea aktibatu egingo da eta PLC-ko Sarrera eta Irteeretara  elektrizitatea heltzeko Aukera histen du.
 5 ABIARAZLE PROGRESIBOA	
 
       ● ABIARAZLE  ZUZENA:	
