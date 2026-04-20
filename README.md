@@ -12,6 +12,7 @@ Taldekideak: Karen H, Jon O, Unax A eta Maddi U.
 Aurkibidea:
 
 1 SARRERA	
+Gu JUMK S.L. enpresa gara. Enpresan PLC baten bitartez zirkuitu eta programa desberdinak ur-hornidurako depositu bat neurtzeko eta erregulatzeko instalazio elektrikoa baten diseinu eta instalazioak burutzen dira. Automatismo elektriko kableatu baten bidez, depositua betetzeko emariaren erregulazioa maiztasun-bihurgailu baten bidez egingo da. 
 
 2 PROIEKTUAREN JATORRIA ETA TESTUINGURUA	
 
