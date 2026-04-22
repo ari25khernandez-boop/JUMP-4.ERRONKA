@@ -74,6 +74,11 @@ Maketa hau egiteko alde batetik elemtu fisikoak (hadware) eta ez fisikoak (softw
 
 Motorran abiadurak eraldatzeko bariadore hau erabilida. Horretarako bere manualeko parametroak gure maketera egokitzen diren datuetara egokitu dira. 
 
+PARAMETROS DE FABRICACÓN 
+------------- | -------------
+
+
+
 Parametros de fabrica
 velocidad preseleccionada
 parametros del motor
