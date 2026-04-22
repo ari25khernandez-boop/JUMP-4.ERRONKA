@@ -60,13 +60,36 @@ Maketa hau egiteko alde batetik elemtu fisikoak (hadware) eta ez fisikoak (softw
 
 * GRAFCET
   
-Alde bateik ikus daiteke maketan funtzionamendu nagusirako grafcet bat daukagula. Bertan ziklo hau betetzen da. 
+     Alde bateik ikus daiteke maketan funtzionamendu nagusirako grafcet bat daukagula. Bertan ziklo hau betetzen da. 
 
-Hasteko nahi den pieza kopurua erabakiko da zenbat metaliko edo ez metaliko HMI pantaila bitartez. Orduan martxan jarrita maketa zilindro batek pieza aterako du zintara eta bertan daude sentsoreek detektatzean PLC-ak informazio hori prozesatu eta eskubi (ez metalikoa) edo ezkerrera (metalikoa) bideratuko du pieza. 
+     Hasteko nahi den pieza kopurua erabakiko da zenbat metaliko edo ez metaliko HMI pantaila bitartez. Orduan martxan jarrita maketa zilindro batek pieza aterako      du zintara eta bertan daude sentsoreek detektatzean PLC-ak informazio hori prozesatu eta eskubi (ez metalikoa) edo ezkerrera (metalikoa) bideratuko du pieza. 
 
-Horrezgain…(grafcetari almazena beteta falta zaio)
+     Horrezgain…(grafcetari almazena beteta falta zaio)
 
-Bestalde emergentzirako grafcet-a irudikatzen da non seta, paro edo motorran tapan egoera aldatzen bada, zikloa guztiz gelditzeko. 
+     Bestalde emergentzirako grafcet-a irudikatzen da non seta, paro edo motorran tapan egoera aldatzen bada, zikloa guztiz gelditzeko.
+       <foto de grafcet>
+
+
+## **ATV320**
+
+Motorran abiadurak eraldatzeko bariadore hau erabilida. Horretarako bere manualeko parametroak gure maketera egokitzen diren datuetara egokitu dira. 
+
+Parametros de fabrica
+velocidad preseleccionada
+parametros del motor
+lac
+hsp
+2 hilos
+
+
+## **BIDEOA**
+
+<LINK/URL>
+
+
+
+
+
 
 
 
