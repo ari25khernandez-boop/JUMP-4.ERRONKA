@@ -29,5 +29,9 @@ Gure enpresa JUMK S.L. siemens PLC 1200 dituen zinta bantzaile maketen instalazi
 Horretrako PLC1200, ATV230 eta arduino mikropogramatzailea erabiltzen dira. 
 
 
+## ESKEMA
+
+
+
 
 
