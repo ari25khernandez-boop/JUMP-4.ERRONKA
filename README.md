@@ -94,6 +94,8 @@ Velocidad preseleccionada
 |   |   |   |   | >SP2  |  15Hz |
 |   |   |   |   |  >SP3 | 20,5Hz  |
 |   |   |   |   | >SP4  |  30Hz |
+
+
 parametros del motor
 
 |  DRI-> |  CONF-> | FCS->  |  SIM> |   |
