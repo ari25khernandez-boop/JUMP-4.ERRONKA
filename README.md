@@ -32,8 +32,29 @@ Gure enpresa JUMK S.L.  zinta banatzaile maketen instalazio elektroneumatikoetan
 Maketan funtzio nagusia honakoa da. HMI pantailan guk nahi ditugun pieza kopurua erabakiko degu eta horren arabera piezak klasifikatzen joango da zinta bitartez eskubiruntz edo ezkerreruntz. 
 
 
+## **OSAGAIAK**
+
+Maketa hau egiteko alde batetik elemtu fisikoak (hadware) eta ez fisikoak (software) erabili dira.
+
+* SOFTWARE:
+  - TIA PORTAL
+  - CADe_SIMUS
+  - PC_SIMUS
+  - FLUID-SIM
+  - ARDUINO IDE
+  - LUCIDCHART
+  - CISCO PACKET TRACE 
+  
+* HADWARE:
+   - PLC 1200
+   - ARDUINO
+   - ATV320
+   - MOTORRA
+
 
 ## ESKEMA
+<img width="1039" height="511" alt="Captura" src="https://github.com/user-attachments/assets/634bbcf5-6145-4f21-a6b8-0faf1bfcc1d9" />
+
 
 
 
