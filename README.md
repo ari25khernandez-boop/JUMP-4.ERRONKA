@@ -18,6 +18,8 @@ Taldekideak: Karen H, Jon O, Unax A eta Maddi U.
    - PROGRAMA (arduino)
 
    - ATV320
+
+   - IRUZKINAK
      
      
 </ul>
@@ -25,8 +27,10 @@ Taldekideak: Karen H, Jon O, Unax A eta Maddi U.
 
 ## **SARRERA**
 
-Gure enpresa JUMK S.L. siemens PLC 1200 dituen zinta bantzaile maketen instalazio elektroneumatikoetan zentratzen da. Bertan elementu metaliko eta ez diren banaketa egoki egiten du.
-Horretrako PLC1200, ATV230 eta arduino mikropogramatzailea erabiltzen dira. 
+Gure enpresa JUMK S.L.  zinta banatzaile maketen instalazio elektroneumatikoetan zentratzen da. Bertan elementu metaliko eta ez diren banaketa egokia egiten du. Horretrako PLC1200, ATV230 eta arduino mikropogramatzailea erabiltzen dira.
+
+Maketan funtzio nagusia honakoa da. HMI pantailan guk nahi ditugun pieza kopurua erabakiko degu eta horren arabera piezak klasifikatzen joango da zinta bitartez eskubiruntz edo ezkerreruntz. 
+
 
 
 ## ESKEMA
