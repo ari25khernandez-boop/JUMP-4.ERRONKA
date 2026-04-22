@@ -1,4 +1,4 @@
-# JUMP-4.ERRONKA
+#5 JUMP-4.ERRONKA
       4.ERRONKA 
 
 AUTOMATA PROGRAMAGARRIAK
@@ -73,7 +73,7 @@ Gure zirkuitu asteko lehenik eta behin entxufea konektatua egin behar da, bere d
 
 ● AUTOMATISMOAREN ESKEMA	
 
-<AA>
+
 **SARRERA**
 
 
