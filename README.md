@@ -25,7 +25,8 @@ Taldekideak: Karen H, Jon O, Unax A eta Maddi U.
 
 ## **SARRERA**
 
-Gure enpresa JUMK S.L. da. Enpresak  Siemens PLC 1200 dituen zinta bantzaile maketen instalazio elektroneumatiko egiten du.
+Gure enpresa JUMK S.L. siemens PLC 1200 dituen zinta bantzaile maketen instalazio elektroneumatikoetan zentratzen da. Bertan elementu metaliko eta ez diren banaketa egoki egiten du.
+Horretrako PLC1200, ATV230 eta arduino mikropogramatzailea erabiltzen dira. 
 
 
 
