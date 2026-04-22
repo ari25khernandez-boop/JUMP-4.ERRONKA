@@ -74,15 +74,43 @@ Maketa hau egiteko alde batetik elemtu fisikoak (hadware) eta ez fisikoak (softw
 
 Motorran abiadurak eraldatzeko bariadore hau erabilida. Horretarako bere manualeko parametroak gure maketera egokitzen diren datuetara egokitu dira. 
 
-PARAMETROS DE FABRICACÓN 
-------------- | -------------
-
-
-
 Parametros de fabrica
-velocidad preseleccionada
+
+
+|  DRI->  |  CONF->    | FCS-> |    |
+| ------------ | ------------ | ------------ | ------------ |
+|   |   | FRY->  |   |
+|   |   |   | >ALL"  |
+|   |   | GFS ->   |  YES(2s) |
+
+
+Velocidad preseleccionada
+
+| DRI-> | CONF->   | FCS->  | FULL>  |FUN|   |
+| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+|   |   |   |   | PSS> |   |
+|   |   |   |   | >PS2  |  LI3 |
+|   |   |   |   |> PS4 |  LI4 |
+|   |   |   |   | >SP2  |  15Hz |
+|   |   |   |   |  >SP3 | 20,5Hz  |
+|   |   |   |   | >SP4  |  30Hz |
 parametros del motor
+
+|  DRI-> |  CONF-> | FCS->  |  SIM> |   |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+|   |   |   |   >tCC  |  2hilos (2s) |
+|   |   |   |  >CFG  | Sts |
+|   |   |   |   >bFr  | 50Hz   |
+|   |   |   |   >nPr  |  0,18Kw |
+|   |   |   |  >unS  | 230v  |
+|   |   |   |   >nCr  | 0,96A  |
+|   |   |   |   >frs |  50Hz  |
+|   |   |   |   >nSP | 1310  |
+
+
 lac
+
+
 hsp
 2 hilos
 
