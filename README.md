@@ -16,11 +16,17 @@ Taldekideak: Karen H, Jon O, Unax A eta Maddi U.
              - TIA PORTAL
 
    - PROGRAMA (arduino)
+
+   - ATV320
+     
      
 </ul>
 
 
 ## **SARRERA**
+
+Gure enpresa JUMK S.L. da. Enpresak  Siemens PLC 1200 dituen zinta bantzaile maketen instalazio elektroneumatiko egiten du.
+
 
 
 
