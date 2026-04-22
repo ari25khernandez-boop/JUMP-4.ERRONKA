@@ -15,7 +15,7 @@ Aurkibidea:
 
 2 PROIEKTUAREN JATORRIA ETA TESTUINGURUA	
 
-3 [HELBURUAK](url)	
+3 HELBURUAK
 
 4 AUTOMATISMOA	
 
@@ -77,5 +77,5 @@ Gure zirkuitu asteko lehenik eta behin entxufea konektatua egin behar da, bere d
 
 
 
-[HELBURUA]
+HELBURUAK
 Proiektu honen helburua Cade-Simuko eskema elektriko bat egitea da , hau da, eskemak egiten dakigula erakustea eta guk behar ditugun elementuak egotea eta beraien arteko kableatua egokia izatea. Cadesimuko eskema ikusita gai izan behar gara automatismoaren muntaia egiteko eta mantenimentua egokia emateko. Programazioaren eskuliburua ikusita maiztasun bihurgailuaren parametroak sartzen ikasi dugu eta PLC arekin komunikatzen. Horrezgain, arduinoren bitartez motorraren temperatura kontrolatu ahal dugu bertan DHT11-ren laguntzarekin kontrolatzen baina leh duguenago, nola erabiltzen den eta nola programatu behar den ikasi genuen. Arduinorekin batera PLC-aren zekuentzia programasioan gehiago ikasi dugu eta zirkuituan pasatzen dena HMI pantallan adieraztea eta bere programazioa.
