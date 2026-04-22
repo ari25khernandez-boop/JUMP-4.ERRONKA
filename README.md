@@ -120,15 +120,6 @@ ABIADURA MAX. ETA MIN.
 |   |   |   | LSP>  | 41  |
 
 
-hsp max
-
-
-
-lsp min
-
-
-
-
 2 hilos
 
 |  DRI-> | CONF->  |  FULL> |   |   |
