@@ -53,10 +53,26 @@ Maketa hau egiteko alde batetik elemtu fisikoak (hadware) eta ez fisikoak (softw
 
 
 ## ESKEMA
+
+Alde bateik ikus daiteke maketan funtzionamendu nagusirako grafcet bat daukagula. Bertan ziklo hau betetzen da. 
+
+Hasteko nahi den pieza kopurua erabakiko da zenbat metaliko edo ez metaliko HMI pantaila bitartez. Orduan martxan jarrita maketa zilindro batek pieza aterako du zintara eta bertan daude sentsoreek detektatzean PLC-ak informazio hori prozesatu eta eskubi (ez metalikoa) edo ezkerrera (metalikoa) bideratuko du pieza. 
+
+Horrezgain…(grafcetari almazena beteta falta zaio)
+
+Bestalde emergentzirako grafcet-a irudikatzen da non seta, paro edo motorran tapan egoera aldatzen bada, zikloa guztiz gelditzeko. 
+
+
 <img width="1039" height="511" alt="Captura" src="https://github.com/user-attachments/assets/634bbcf5-6145-4f21-a6b8-0faf1bfcc1d9" />
 
+
+
+Motorra martxan jartzeko temperatura-muga bat ezarri zaio zenbakizko teklatu baten bitartez. Gero ere LCD pantaila baten bidez motorran tenperatura erreala bistaratuko da eta ezarri den tenperatura muga gainditzen bada bertan mezu bat agertuko da «Temperatura muga gainditua». Muga hau gaindituz seinale bat bidaliko du PLC-ra.
+
+
 <img width="1875" height="2344" alt="4  ERRONKA  - Page 1_page-0001 (1)" src="https://github.com/user-attachments/assets/a2a08a26-f76c-4b0a-97c1-516b3baf8c7c" />
->
+
+
 ## **PROGRAMAK**
 
 * GRAFCET
