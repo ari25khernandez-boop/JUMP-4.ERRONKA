@@ -1,1 +1,169 @@
+#include <DHT.h>
+#include <Keypad.h>
+#include <LiquidCrystal_I2C.h>
 
+// -------- SENTSOREA --------
+#define DHTPIN 2
+#define DHTTYPE DHT11
+DHT sentsorea(DHTPIN, DHTTYPE);
+
+// -------- LCD --------
+LiquidCrystal_I2C pantaila(0x27,16,2);
+
+// -------- PLC --------
+int plcPin = 12;
+
+// -------- TEKLATUA --------
+const byte FILAK = 4;
+const byte ZUTABEAK = 4;
+
+char teklak[FILAK][ZUTABEAK] = {
+{'1','2','3','A'},
+{'4','5','6','B'},
+{'7','8','9','C'},
+{'*','0','#','D'}
+};
+
+byte pinFilak[FILAK] = {3,4,5,6};
+byte pinZutabeak[ZUTABEAK] = {7,8,9,10};
+
+Keypad teklatua = Keypad(makeKeymap(teklak), pinFilak, pinZutabeak, FILAK, ZUTABEAK);
+
+// -------- ALDAGAIAK --------
+String sarrera = "";
+int mugaTenperatura = 30;
+
+bool konfigurazioModua = true;
+
+float histeresia = 1.0;
+bool alarmaAktibo = false;
+
+unsigned long azkenBidalketa = 0;
+unsigned long tartea = 1000;
+
+void setup(){
+
+  Serial.begin(9600);
+
+  // -------- PLX-DAQ --------
+  Serial.println("CLEARDATA");
+  Serial.println("LABEL,Denbora,Tenperatura,Muga,Egoera");
+
+  pinMode(plcPin, OUTPUT);
+  digitalWrite(plcPin, LOW);
+
+  pantaila.init();
+  pantaila.backlight();
+
+  sentsorea.begin();
+
+  pantaila.setCursor(0,0);
+  pantaila.print("Sistema hasi");
+  delay(2000);
+  pantaila.clear();
+}
+
+void loop(){
+
+  char tekla = teklatua.getKey();
+
+  // ---------- KONFIGURAZIO MODUA ----------
+  if(konfigurazioModua){
+
+    pantaila.setCursor(0,0);
+    pantaila.print("Muga berria:");
+
+    pantaila.setCursor(0,1);
+    pantaila.print(sarrera);
+    pantaila.print("   ");
+
+    if(tekla){
+
+      if(tekla >= '0' && tekla <= '9'){
+        if(sarrera.length() < 2){
+          sarrera += tekla;
+        }
+      }
+
+      if(tekla == 'B'){
+        sarrera = "";
+      }
+
+      if(tekla == 'A'){
+        if(sarrera.length() > 0){
+
+          mugaTenperatura = sarrera.toInt();
+
+          if(mugaTenperatura > 99){
+            mugaTenperatura = 99;
+          }
+
+          sarrera = "";
+          konfigurazioModua = false;
+          pantaila.clear();
+        }
+      }
+    }
+  }
+
+  // ---------- FUNTZIONAMENDU MODUA ----------
+  else{
+
+    float t1 = sentsorea.readTemperature();
+    delay(100);
+    float t2 = sentsorea.readTemperature();
+
+    float tenperatura = (t1 + t2) / 2;
+
+    if (isnan(tenperatura)) {
+      Serial.println("Errorea sentsorean");
+      return;
+    }
+
+    // -------- KONTROLA --------
+    if(!alarmaAktibo && tenperatura >= mugaTenperatura){
+      alarmaAktibo = true;
+      digitalWrite(plcPin, HIGH);
+    }
+
+    if(alarmaAktibo && tenperatura < (mugaTenperatura - histeresia)){
+      alarmaAktibo = false;
+      digitalWrite(plcPin, LOW);
+    }
+
+    // -------- PANTAILA --------
+    pantaila.setCursor(0,0);
+    pantaila.print("Tenp:");
+    pantaila.print(tenperatura,1);
+    pantaila.print("C   ");
+
+    pantaila.setCursor(0,1);
+    pantaila.print("Muga:");
+    pantaila.print(mugaTenperatura);
+    pantaila.print("C   ");
+
+    // -------- EXCEL --------
+    if(millis() - azkenBidalketa > tartea){
+
+      azkenBidalketa = millis();
+
+      Serial.print("DATA,TIME,");
+      Serial.print(tenperatura,1);
+      Serial.print(",");
+      Serial.print(mugaTenperatura);
+      Serial.print(",");
+
+      if(alarmaAktibo){
+        Serial.println("ALARMA");
+      }else{
+        Serial.println("ONDO");
+      }
+    }
+
+    // modua aldatu
+    if(tekla == 'C'){
+      konfigurazioModua = true;
+      pantaila.clear();
+    }
+  }
+}
