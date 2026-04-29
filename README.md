@@ -81,6 +81,10 @@ Maketa hau egiteko alde batetik elemetu fisikoak (hadware) eta ez fisikoak (soft
 
 
 
+
+
+
+
 * FLUXU-DIAGRAMA
 
 
