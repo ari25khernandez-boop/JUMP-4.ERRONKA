@@ -34,7 +34,7 @@ Maketan funtzio nagusia honakoa da. HMI pantailan guk nahi ditugun pieza kopurua
 
 ## **OSAGAIAK**
 
-Maketa hau egiteko alde batetik elemtu fisikoak (hadware) eta ez fisikoak (software) erabili dira.
+Maketa hau egiteko alde batetik elemetu fisikoak (hadware) eta ez fisikoak (software) erabili dira.
 
 * SOFTWARE:
   - TIA PORTAL
