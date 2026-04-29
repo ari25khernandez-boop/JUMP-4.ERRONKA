@@ -77,6 +77,7 @@ Maketa hau egiteko alde batetik elemtu fisikoak (hadware) eta ez fisikoak (softw
 
      Bestalde emergentzirako grafcet-a irudikatzen da non seta, paro edo motorran tapan egoera aldatzen bada, zikloa guztiz gelditzeko. Baiata ere reset botoiari emanda          hasierako egoerara bidaltzen ditu 
        <foto de grafcet>
+<img width="1249" height="878" alt="image" src="https://github.com/user-attachments/assets/276821ce-dd9d-4463-b67a-aa8930d543bc" />
 
 
 
