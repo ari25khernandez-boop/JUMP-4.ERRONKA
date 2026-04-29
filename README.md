@@ -159,7 +159,10 @@ ABIADURA MAX. ETA MIN.
 
 
 
+💬 IRUZKINAK
+Hemen zure iruzkina utzi dezakezu.
 
+https://github.com/USUARIO/REPO/discussions
 
 
 
