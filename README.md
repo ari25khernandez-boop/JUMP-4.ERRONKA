@@ -83,6 +83,8 @@ Maketa hau egiteko alde batetik elemtu fisikoak (hadware) eta ez fisikoak (softw
 
 * FLUXU-DIAGRAMA
 
+
+
  Maketan barne Arduino bat sartu zaio gehien bat motorran tenperatura neurtzeko, horrezgain beste funtzio hauek betetzen.
 
  Motorra martxan jartzeko temperatura-muga bat ezarri zaio zenbakizko teklatu baten bitartez. Gero ere LCD pantaila baten bidez motorran tenperatura erreala bistaratuko      da eta ezarri den tenperatura muga gainditzen bada bertan mezu bat agertuko da «Temperatura muga gainditua». Muga hau gaindituz seinale bat bidaliko du PLC-ra.
