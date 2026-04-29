@@ -81,11 +81,14 @@ Maketa hau egiteko alde batetik elemtu fisikoak (hadware) eta ez fisikoak (softw
 
 
 
+* FLUXU-DIAGRAMA
 
+ Maketan barne Arduino bat sartu zaio gehien bat motorran tenperatura neurtzeko, horrezgain beste funtzio hauek betetzen.
 
  Motorra martxan jartzeko temperatura-muga bat ezarri zaio zenbakizko teklatu baten bitartez. Gero ere LCD pantaila baten bidez motorran tenperatura erreala bistaratuko      da eta ezarri den tenperatura muga gainditzen bada bertan mezu bat agertuko da «Temperatura muga gainditua». Muga hau gaindituz seinale bat bidaliko du PLC-ra.
 
-     <img width="1875" height="2344" alt="4  ERRONKA  - Page 1_page-0001 (1)" src="https://github.com/user-attachments/assets/a2a08a26-f76c-4b0a-97c1-516b3baf8c7c" />
+
+<img width="1875" height="2344" alt="4  ERRONKA  - Page 1_page-0001 (1)" src="https://github.com/user-attachments/assets/a2a08a26-f76c-4b0a-97c1-516b3baf8c7c" />
 
 
   ## **ATV320**
@@ -109,9 +112,9 @@ Velocidad preseleccionada
 |   |   |   |   | PSS> |   |
 |   |   |   |   | >PS2  |  LI3 |
 |   |   |   |   |> PS4 |  LI4 |
-|   |   |   |   | >SP2  |  15Hz |
-|   |   |   |   |  >SP3 | 20,5Hz  |
-|   |   |   |   | >SP4  |  30Hz |
+|   |   |   |   | >SP2  |  20Hz |
+|   |   |   |   |  >SP3 | 30Hz  |
+|   |   |   |   | >SP4  |  45Hz |
 
 
 parametros del motor
