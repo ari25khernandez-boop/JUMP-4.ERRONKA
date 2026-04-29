@@ -137,7 +137,7 @@ parametros del motor
 |   |   |   |   >nSP | 1310  |
 
 
-lac
+
 
 ABIADURA MAX. ETA MIN.
 
