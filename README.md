@@ -152,6 +152,10 @@ ABIADURA MAX. ETA MIN.
 |   |   |   | LIA> | FRD  |
 |   |   |   |  L2 >| LIx |
 
+
+
+Hemen uzten degu ATV320-en eskuliburuaren esteka.
+https://download.se.com/files?p_Doc_Ref=NVE41298&p_enDocType=User+guide
 ## **BIDEOA**
 
 <LINK/URL>
