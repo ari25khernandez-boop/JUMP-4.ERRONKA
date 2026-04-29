@@ -162,7 +162,7 @@ ABIADURA MAX. ETA MIN.
 💬 IRUZKINAK
 Hemen zure iruzkina utzi dezakezu.
 
-https://github.com/USUARIO/REPO/discussions
+[https://github.com/USUARIO/REPO/discussions](https://github.com/ari25khernandez-boop/JUMP-4.ERRONKA/discussions)
 
 
 
